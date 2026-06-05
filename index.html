@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 Gaming Hub - Gratis Online Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>🎮 GAMING HUB</h1>
+            <p>Speel honderden gratis games online!</p>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search" placeholder="🔍 Zoek een game...">
+        </div>
+    </header>
+
+    <nav class="category-nav">
+        <button onclick="filterGames('all')" class="active">🎮 Alle Games</button>
+        <button onclick="filterGames('action')">⚡ Action</button>
+        <button onclick="filterGames('puzzle')">🧩 Puzzle</button>
+        <button onclick="filterGames('racing')">🏎️ Racing</button>
+        <button onclick="filterGames('strategy')">♟️ Strategy</button>
+        <button onclick="filterGames('sports')">⚽ Sports</button>
+    </nav>
+
+    <main id="gameContainer" class="game-grid">
+        <!-- Games worden hier dynamisch ingevoegd -->
+    </main>
+
+    <footer>
+        <p>© 2026 Gaming Hub | Gratis gaming platform</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
